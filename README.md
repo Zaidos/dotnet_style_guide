@@ -69,7 +69,7 @@ var flavour = Flavor.Strawberry;
 
 - Line indentation should be set to two spaces. Due to the nature of .NET
   development shops, certain variable and class names can become rather lengthy.
-  Anything else will cause too much horizontal scrolling, even on larger
+  Anything larger indent size will cause too much horizontal scrolling, even on larger
   monitors.
 - Interface, Class, Method, Switch/Case, and conditionals braces should always
   open and close on a new line.
@@ -98,6 +98,14 @@ public class Cat {
   }
 }
 ```
+
+## Comments
+
+Ideally, code should be as self-documenting as possible. Comments should never
+explain what a particular piece of code does.
+
+If a comment is needed, it should explain **WHY** the code was written that way,
+and only when its meaning is not inherently clear.
 
 ## Future Reading
 
