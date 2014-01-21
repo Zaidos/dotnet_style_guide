@@ -3,9 +3,13 @@ Diaz](http://www.zaidox.com) ([@zaidos](http://www.twitter.com/zaidos)).
 
 ## Introduction
 
+This guide is a work in progress. Updates and changes should be expected.
+
 ## Credits
 
 ## Background
+
+TODO: Add references to other .NET style guides here.
 
 ## Table of Contents
 
@@ -52,13 +56,47 @@ Diaz](http://www.zaidox.com) ([@zaidos](http://www.twitter.com/zaidos)).
 Ideally, US English should be used.
 
 **Preferred:**
-```
+```csharp
 var flavor = Flavor.MintChocolateChip;
 ```
 
 **Not Preferred:**
-```
+```csharp
 var flavour = Flavor.Strawberry;
+```
+
+## Spacing
+
+- Line indentation should be set to two spaces. Due to the nature of .NET
+  development shops, certain variable and class names can become rather lengthy.
+  Anything else will cause too much horizontal scrolling, even on larger
+  monitors.
+- Interface, Class, Method, Switch/Case, and conditionals braces should always
+  open and close on a new line.
+
+**Preferred:**
+```csharp
+public class Dog
+{
+  public void MakeNoise()
+  {
+    if (nightTime)
+    {
+      BarkReallyLoud();
+    }
+  }
+}
+```
+
+**Not Preferred:**
+```csharp
+public class Cat {
+  public void MakeNoise() {
+    if (nightTime) {
+      AwakeOwner();
+    }
+  }
+}
 ```
 
 ## Future Reading
