@@ -3,16 +3,23 @@ Diaz](http://www.zaidox.com) ([@zaidos](http://www.twitter.com/zaidos)).
 
 ## Introduction
 
+## Credits
+
+## Background
+
 ## Table of Contents
 
 - [Language](#language)
-- [Code Organization](#code-organization)
 - [Spacing](#spacing)
 - [Line Breaks](#line-breaks)
 - [Comments](#comments)
+- [Documentation](#documentation)
 - [Naming](#naming)
 - [Namespaces](#namespaces)
 - [Using Statements](#using-statements)
+- [Code Organization](#code-organization)
+- [Object Declaration](#object-declaration)
+- [Primitive Types](#primitive-types)
 - [Methods](#methods)
 - [Variables](#variables)
 - [Properties](#properties)
@@ -39,6 +46,20 @@ Diaz](http://www.zaidox.com) ([@zaidos](http://www.twitter.com/zaidos)).
 - [Error Handling](#error-handling)
 - [Singletons](#singletons)
 - [Visual Studio Project Organization](#project-organization)
+
+## Language
+
+Ideally, US English should be used.
+
+**Preferred:**
+```
+var flavor = Flavor.MintChocolateChip;
+```
+
+**Not Preferred:**
+```
+var flavour = Flavor.Strawberry;
+```
 
 ## Future Reading
 
