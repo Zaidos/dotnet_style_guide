@@ -62,7 +62,7 @@ var flavor = Flavor.MintChocolateChip;
 
 **Not Preferred:**
 ```csharp
-var flavour = Flavor.Strawberry;
+var flavour = Flavor.StrawberryWithChunks;
 ```
 
 ## Spacing
